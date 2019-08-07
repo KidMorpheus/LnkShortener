@@ -38,7 +38,7 @@ public class LinkListAdapter extends RecyclerView.Adapter<LinkListAdapter.LinkVi
         }
     }
 
-    void setLinks(List<Link> links){
+    public void setLinks(List<Link> links){
         mLinks = links;
         notifyDataSetChanged();
     }

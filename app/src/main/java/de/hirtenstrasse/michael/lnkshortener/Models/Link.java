@@ -10,7 +10,11 @@ import java.util.Date;
 @Entity(tableName = "link_table")
 public class Link {
 
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
+    @NonNull
+    @ColumnInfo(name = "id")
+    public int id;
+
     @NonNull
     @ColumnInfo(name = "short_url")
     private String mShortUrl;

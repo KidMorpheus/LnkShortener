@@ -21,7 +21,7 @@ public class LinkViewModel extends AndroidViewModel {
         mAllLinks = mRepository.getAllLinks();
     }
 
-    LiveData<List<Link>> getAllLinks() { return mAllLinks; }
+    public LiveData<List<Link>> getAllLinks() { return mAllLinks; }
 
     public void insert(Link link) { mRepository.insert(link); }
 
