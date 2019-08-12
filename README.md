@@ -1,11 +1,11 @@
 <img src="/icons/LnkShortenerRobo512.png" style="float:left; height:114px" height="114">
-LnkShortener is an Android app for shortening URLs. It is using [Polr](https://github.com/Cydrobolt/polr), an open-source URL shortener
+LnkShortener is an Android app for shortening URLs. It uses [Polr](https://github.com/Cydrobolt/polr), an open-source URL shortener.
 
 ## Version 2
 This is the developement branch for a completely new version 2. LnkShortener was my first android project, looking back it was fun, but the code is inefficient and ugly. Hence the decision for a fresh start. Since this still is more of a hobby project there is no release date for V2.
 
 # License
-> Copyright (C) 2017 Michael Achmann
+> Copyright (C) 2017-2019 Michael Achmann
 
 >This program is free software: you can redistribute it and/or modify
 >it under the terms of the GNU General Public License as published by

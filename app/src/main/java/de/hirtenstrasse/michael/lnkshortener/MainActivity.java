@@ -3,6 +3,10 @@ package de.hirtenstrasse.michael.lnkshortener;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.NavigationUI;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -11,6 +15,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.google.android.material.navigation.NavigationView;
 
 import java.util.Date;
 import java.util.List;
@@ -42,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 adapter.setLinks(links);
             }
         });
+
 
         // TODO: Remove me!
         // Test for adding information to the database.
