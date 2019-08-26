@@ -10,8 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Activities.ShortLinkActivity"
+            android:label="@string/title_activity_short_link"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hirtenstrasse.michael.lnkshortener.MainActivity" />
+        </activity>
+        <activity
             android:name=".Activities.SettingsActivity"
-            android:label="@string/title_activity_settings"></activity>
+            android:label="@string/title_activity_settings" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
